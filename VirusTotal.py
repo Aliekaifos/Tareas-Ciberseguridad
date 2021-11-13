@@ -20,7 +20,7 @@ def VirusTotalUrl():
         for i in file:
             urls_sospechosas.append(i.strip("\n"))
 
-    # api : 60f0dd4a80bc6228f3102ba63badf79348b578503a0f922a46a2eb1537e4e2b9
+
     API_key =  getpass.getpass('API key de Virus Total: ')
     url = 'https://www.virustotal.com/vtapi/v2/url/report'
     print("Cargando...")
